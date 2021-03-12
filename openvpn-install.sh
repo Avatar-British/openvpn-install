@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#	Edited date:	2021-03-11
+#	Edited date:	2021-03-12
 #	Edited by:	Allen Wong
 #	https://github.com/Avatar-British/openvpn-install
 #
@@ -274,7 +274,17 @@ dh dh.pem
 auth SHA512
 tls-crypt tc.key
 topology subnet
-server 10.9.8.0 255.255.255.0" > /etc/openvpn/server/server.conf
+server 10.9.8.0 255.255.255.0
+#	
+#	Enable individual user get the same fixed IP everytime login using OpenVPN.
+#	EXAMPLE: Suppose you want to give a fixed VPN IP address of 10.9.8.81
+#	First uncomment out this line:
+client-config-dir /etc/openvpn/ccd
+#	After created the <client> account, then use the following command line 
+#	to generate the static IP file for the specific client to bind IP.
+#	EXAMPLE: echo "ifconfig-push 10.9.8.81 255.255.255.0" > /etc/openvpn/ccd/<client>
+#	
+	" > /etc/openvpn/server/server.conf
 	# IPv6
 	if [[ -z "$ip6" ]]; then
 		echo 'push "redirect-gateway def1 bypass-dhcp"' >> /etc/openvpn/server/server.conf
