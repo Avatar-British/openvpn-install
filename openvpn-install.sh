@@ -4,7 +4,7 @@
 #	Edited by:	Allen Wong
 #	https://github.com/Avatar-British/openvpn-install
 #
-#	As been stated in early in the script that this script is origin from Nyr's GitHub:
+#	As been stated early in the script, that this script is origin from Nyr's GitHub:
 #	https://github.com/Nyr/openvpn-install
 #
 #	Copyright (c) 2021 Avatar-British. Released under the MIT License.
