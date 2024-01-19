@@ -8,7 +8,7 @@
 **Update: For the easy start, I just imported the exact repository from [Nyr] (https://github.com/Nyr/openvpn-install) GitHub side, all the credits should belongs to him.**
 
 ## openvpn-install
-OpenVPN [road warrior](http://en.wikipedia.org/wiki/Road_warrior_%28computing%29) installer for Ubuntu, Debian, CentOS and Fedora.
+OpenVPN [road warrior](http://en.wikipedia.org/wiki/Road_warrior_%28computing%29) Ubuntu, Debian, AlmaLinux, Rocky Linux, CentOS and Fedora.
 
 I had my preferences and parameters on the OpenVPN server settings, 
 I decided to create this GitHub to record my changes upon [Nyr] scripts and efforts.
