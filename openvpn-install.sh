@@ -1,8 +1,13 @@
 #!/bin/bash
 #
-# https://github.com/Nyr/openvpn-install
+#	Edited date:	2024-01-19
+#	Edited by:	Allen Wong
+#	https://github.com/Avatar-British/openvpn-install
 #
-# Copyright (c) 2013 Nyr. Released under the MIT License.
+#	As been stated early in the script, that this script is origin from Nyr's GitHub:
+#	https://github.com/Nyr/openvpn-install
+#
+#	Copyright (c) 2021 Avatar-British. Released under the MIT License.
 
 
 # Detect Debian users running the script with "sh" instead of bash
